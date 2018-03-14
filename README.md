@@ -1,10 +1,6 @@
 # CSK in Python
 
-<p align="center">
-  ![](https://github.com/hsjeong5/CSK/blob/master/Dog1.gif) ![](https://github.com/hsjeong5/CSK/blob/master/Sylvester.gif) ![](https://github.com/hsjeong5/CSK/blob/master/FaceOcc2.gif)
-</p>
-
-This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences are taken from [2].
+This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1].
 
 ### Requirements
 
@@ -51,9 +47,9 @@ for i in range(1,length+1): # repeat for all frames
 ### Precision Plots
 
 <p align="center">
-  <img src="Dog1.png" width=320px>
-  <img src="Sylvester.png" width=320px>
-  <img src="FaceOcc2.png" width=320px>
+  <img src="Dog1.png" width="32%">
+  <img src="Sylvester.png" width="32%">
+  <img src="FaceOcc2.png" width="32%">
 </p>
 
 This is precision plots for 3 sequences above (Dog1, Sylvester, FaceOcc2).
