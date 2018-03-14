@@ -1,7 +1,7 @@
 # CSK in Python
 
 <p align="center">
-  ![](https://github.com/hsjeong5/CSK/Dog1.gif) ![](https://github.com/hsjeong5/CSK/Sylvester.gif) ![](https://github.com/hsjeong5/CSK/FaceOcc2.gif)
+  ![](https://github.com/hsjeong5/CSK/blob/master/Dog1.gif) ![](https://github.com/hsjeong5/CSK/blob/master/Sylvester.gif) ![](https://github.com/hsjeong5/CSK/blob/master/FaceOcc2.gif)
 </p>
 
 This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences are taken from [2].
