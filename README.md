@@ -61,7 +61,7 @@ for i in range(1,length+1): # repeat for all frames
 This is precision plots for 3 sequences above (Dog1, Sylvester, FaceOcc2).
 
 
-## Reference
+## References
 [1]
 >[Exploiting the Circulant Structure of Tracking-by-Detection with Kernels](https://link.springer.com/chapter/10.1007/978-3-642-33765-9_50)<br>
 > João F. Henriques, Rui Caseiro, Pedro Martins, Jorge Batista<br>
