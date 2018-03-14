@@ -1,4 +1,4 @@
-# CSK in Python
+# CSK Tracker in Python
 
 <p align="center">
     <img src="https://github.com/hsjeong5/CSK/blob/master/img/dog1_1.jpg" width="32%">
