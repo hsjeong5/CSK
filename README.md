@@ -6,7 +6,7 @@
     <img src="https://github.com/hsjeong5/CSK/blob/master/img/faceocc2_1.jpg" width="32%">
 </p>
 
-This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences are taken from [2].
+This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences (Dog1, Sylvester, FaceOcc2) are taken from [2].
 
 ## Requirements
 
