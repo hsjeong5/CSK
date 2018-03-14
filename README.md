@@ -8,12 +8,12 @@
 
 This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences are taken from [2].
 
-### Requirements
+## Requirements
 
 - Numpy
 - Scipy
 
-### Sample Code
+## Sample Code
 
 ```python
 import csk
@@ -50,7 +50,7 @@ for i in range(1,length+1): # repeat for all frames
         (x1, y1), (x1+width, y1+height), (0,255,0), 2)) # draw bounding box and save the frame
 ```
 
-### Precision Plots
+## Precision Plots
 
 <p align="center">
   <img src="https://github.com/hsjeong5/CSK/blob/master/img/dog1_precision.png" width="32%">
@@ -61,7 +61,7 @@ for i in range(1,length+1): # repeat for all frames
 This is precision plots for 3 sequences above (Dog1, Sylvester, FaceOcc2).
 
 
-### Reference
+## Reference
 [1]
 >[Exploiting the Circulant Structure of Tracking-by-Detection with Kernels](https://link.springer.com/chapter/10.1007/978-3-642-33765-9_50)<br>
 > João F. Henriques, Rui Caseiro, Pedro Martins, Jorge Batista<br>
