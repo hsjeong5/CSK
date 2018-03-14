@@ -1,6 +1,8 @@
 # CSK in Python
 
-This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1].
+<p align="center"> ![](/img/dog1_1.gif) ![](/img/sylvester_1.gif) ![](/img/faceocc2_1.gif)</p>
+
+This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences are taken from [2].
 
 ### Requirements
 
