@@ -1,6 +1,10 @@
 # CSK in Python
 
-<p align="center"> ![](img/dog1_1.jpg) ![](img/sylvester_1.jpg) ![](img/faceocc2_1.jpg)</p>
+<p align="center">
+    <img src="https://github.com/hsjeong5/CSK/blob/master/img/dog1_1.jpg" width="32%">
+    <img src="https://github.com/hsjeong5/CSK/blob/master/img/sylvester_1.jpg" width="32%">
+    <img src="https://github.com/hsjeong5/CSK/blob/master/img/faceocc2_1.jpg" width="32%">
+</p>
 
 This is a Python implementation of "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels" [1]. The above three sequences are taken from [2].
 
