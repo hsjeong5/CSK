@@ -16,7 +16,7 @@ This is a Python implementation of "Exploiting the Circulant Structure of Tracki
 ## Sample Code
 
 ```python
-import csk
+from csk import *
 import numpy as np
 from scipy.misc import imread, imsave
 import cv2 # (Optional) OpenCV for drawing bounding boxes
