@@ -1,5 +1,4 @@
 import numpy as np
-from scipy.misc import imread, imsave
 
 class CSK:
     def __init__(self):
@@ -77,30 +76,30 @@ class CSK:
         return windowed
 
     def crop(self,img,x1,y1,width,height):
-        pad_y = (0,0)
-        pad_x = (0,0)
+        pad_y = [0,0]
+        pad_x = [0,0]
 
-        if int(y1-height/2) < 0:
+        if (y1-height/2) < 0:
             y_up = 0
-            pad_y = (-int(y1-height/2),0)
+            pad_y[0] = int(-(y1-height/2))
         else:
             y_up = int(y1-height/2)
 
-        if int(y1+3*height/2) > img.shape[0]:
+        if (y1+3*height/2) > img.shape[0]:
             y_down = img.shape[0]
-            pad_y = (0,int(y1+3*height/2) - img.shape[0])
+            pad_y[1] = int((y1+3*height/2) - img.shape[0])
         else:
             y_down = int(y1+3*height/2)
 
-        if int(x1-width/2) < 0:
+        if (x1-width/2) < 0:
             x_left = 0
-            pad_x = (-int(x1-width/2),0)
+            pad_x[0] = int(-(x1-width/2))
         else:
             x_left = int(x1-width/2)
 
-        if int(x1+3*width/2) > img.shape[1]:
+        if (x1+3*width/2) > img.shape[1]:
             x_right = img.shape[1]
-            pad_x = (0,int(x1+3*width/2) - img.shape[1])
+            pad_x[1] = int((x1+3*width/2) - img.shape[1])
         else:
             x_right = int(x1+3*width/2)
 
